@@ -54,7 +54,7 @@ document.querySelectorAll('[data-scroll]').forEach(button => {
 
 // Função para abrir WhatsApp
 function openWhatsApp(message) {
-  const phoneNumber = '5511999999999'; // Substituir pelo número real
+  const phoneNumber = '5518981678963'; // Substituir pelo número real
   const encodedMessage = encodeURIComponent(message);
   window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
 }
