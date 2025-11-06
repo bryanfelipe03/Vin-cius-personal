@@ -17,16 +17,16 @@ body {
   overflow-x: hidden;
 }
 
-/* Variáveis de Cores */
 :root {
-  --primary: #e74c5c;
-  --primary-glow: #ff6b7a;
-  --background: #1a1d23;
-  --card: #1f2228;
-  --border: #2d3039;
-  --muted: #9ca3af;
-  --text: #f5f5f5;
+  --primary: #1DB954;       /* verde claro - destaques, botões */
+  --primary-glow: #43FF9E;  /* brilho do verde claro */
+  --background: #121212;    /* fundo: cinza escuro */
+  --card: #1b1b1b;          /* cartões */
+  --border: #262626;        /* bordas */
+  --muted: #b3b3b3;         /* textos secundários */
+  --text: #ffffff;          /* texto principal */
 }
+
 
 /* Container */
 .container {
@@ -184,7 +184,7 @@ nav.scrolled {
 }
 
 .hero-title .gradient-text {
-  background: linear-gradient(135deg, #e74c5c, #ff6b7a);
+  background: linear-gradient(135deg, #1DB954, #0f3d0f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
